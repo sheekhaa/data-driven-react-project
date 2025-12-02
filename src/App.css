@@ -43,7 +43,6 @@
 
 
 
-
 html, body {
     margin: 0;
 }
@@ -87,8 +86,8 @@ article.journal-entry .marker {
 }
 
 article.journal-entry .main-image-container {
-    width: 125px;
-    height: 168px;
+    width: 150px;
+    height: 350px;
     overflow: hidden;
     border-radius: 5px;
     flex-shrink: 0;
@@ -132,5 +131,17 @@ article.journal-entry .main-image {
     /* -webkit-line-clamp: 3; */
     /* -webkit-box-orient: vertical;   */
     overflow: hidden;
+}
+.info-container p.rating {
+    font-size: 0.8rem;    
+}
+
+.list-items {
+    list-style-type: none;
+}
+
+.list-items li {
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 

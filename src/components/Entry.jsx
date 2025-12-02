@@ -10,14 +10,23 @@ export default function Entry(props) {
                 />
             </div>
             <div className="info-container">
-             <CiLocationOn className='marker' />
+             <CiLocationOn className='marker'/>
                 <span className="country">{props.entry.country}</span>
                 <a href={props.entry.googleMapsLink} target="_blank">View on Google Maps</a>
                 <h2 className="entry-title">{props.entry.title}</h2>
                 <p className="trip-dates">{props.entry.dates}</p>
+                     <p className="rating">Rating: {props.entry.rating}</p>
                 <p className="entry-text">{props.entry.text}</p>
-            </div>
-            
+                <h3>Similar Places</h3>
+                <ul className="list-items">
+                     {props.entry.similarPlaces.map(({name, Rating, index} )=>(
+                          <li key={index}>
+                            <p>Name: {name}</p>
+                            <p>Rating: {Rating}</p>
+                        </li>               
+                     ))}          
+                </ul>           
+            </div>            
         </article>
     )
 }
