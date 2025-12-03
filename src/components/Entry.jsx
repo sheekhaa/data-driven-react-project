@@ -19,10 +19,9 @@ export default function Entry(props) {
                 <p className="entry-text">{props.entry.text}</p>
                 <h3>Similar Places</h3>
                 <ul className="list-items">
-                     {props.entry.similarPlaces.map(({name, Rating, index} )=>(
+                     {props.entry.similarPlaces.map(({name, rating, index} )=>(
                           <li key={index}>
-                            <p>Name: {name}</p>
-                            <p>Rating: {Rating}</p>
+                            <p>Name: {name}, Rating: {rating}</p>                       
                         </li>               
                      ))}          
                 </ul>           

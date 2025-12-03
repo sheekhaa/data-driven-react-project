@@ -3,7 +3,7 @@ function Header() {
   return (
     <header>
       <img src={globalImg} alt="global"/>
-      <h1>my travel journal.</h1>
+      <h1>my travel journal</h1>
     </header>
   )
 }

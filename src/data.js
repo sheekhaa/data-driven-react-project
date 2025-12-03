@@ -14,11 +14,11 @@ export default [
         similarPlaces: [
                 {
                     "name": "Mount Everest",
-                    "Rating": "1.7"
+                    "rating": "1.7"
                 },
                 {
                     "name": "Sahara Desert",
-                    "Rating": "2.3" 
+                    "rating": "2.3" 
                 },  
        ]
 
@@ -38,11 +38,11 @@ export default [
         similarPlaces: [
                 {
                     "name": "Great Barrier Reef",
-                    "Rating": "1.9"
+                    "rating": "1.9"
                 },
                 {
                     "name": "Amazon Rainforest",
-                    "Rating": "1.8" 
+                    "rating": "1.8" 
                 },  
        ]
     },
@@ -61,11 +61,11 @@ export default [
         similarPlaces: [
                 {
                     "name": "Niagara Falls",
-                    "Rating": "1.7"
+                    "rating": "1.7"
                 },
                 {
                     "name": "Grand Canyon",
-                    "Rating": "2.0" 
+                    "rating": "2.0" 
                 },  
        ]
     },
